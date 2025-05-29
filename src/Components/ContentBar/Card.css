@@ -1,0 +1,85 @@
+.cardTitle {
+  font-size: 18px;
+  margin: 8px;
+  padding: 6px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .cardTitle {
+    font-size: 22px;
+  }
+}
+
+.todayCard {
+  height: 120px;
+  width: 90%;
+  margin: 6px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 2px;
+}
+
+
+/*Today Card */
+.todayData {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardData {
+  padding-left: 14px;
+  font-size: 18px;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.forecastCard {
+  height: 180px;
+  width: calc((100% - 60px) / 3);
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgDark {
+  background-color: #1f2933;
+  color: white;
+  transition: 0.5s ease all;
+}
+
+.fgDark {
+  background-color: #323f4b;
+  color: white;
+  transition: 0.5s ease all;
+}
+
+.bgLight {
+  background-color: #e1e1e1;
+  color: black;
+  transition: 0.5s ease all;
+}
+
+.fgLight {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: 0.5s ease all;
+}
+
+
+

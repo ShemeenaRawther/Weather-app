@@ -1,0 +1,22 @@
+.cityCard {
+  background: linear-gradient(to right, #f9655b, #ee821a);
+  height: 120px;
+  width: 80%;
+  margin: 12px;
+  padding: 8px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.cityName {
+  position: absolute;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+}
